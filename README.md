@@ -1,61 +1,45 @@
-# Submarine-Project-2023-Control-System
-Design and implementation on Simulink environment of a controller to stabilize a submarine described by differential equations.
+# 🌊 Submarine Control System Project
 
+Control-systems university project focused on controller design for a submarine model defined by differential equations.
 
-This project was created for the Control System exam given by Professor Adriano Fagiolini, Control System Teacher. We did the project with the group formed by: Giovanni Castelli, Raoul Renda, Gabriele Nicolò Costa, Spedito Antonio and Alessandro Macaluso. We all participated equally in the project.
+Developed in MATLAB/Simulink for the Control Systems course.
 
-The project consisted in designing a Controller that respects some specifications for a Submarine described by differential equations.
+## 🎯 Objective
 
-The project includes a first analytical part of resolution and description of the design and a numerical part to be carried out in the Simulink/MATLAB environment.
+Design and validate a controller that satisfies project constraints for both linearized and nonlinear plant behavior.
 
-## Description
-The stages were:
+## 👥 Team
 
-- Linearization of the provided model.
+- Giovanni Castelli
+- Raoul Renda
+- Gabriele Nicolò Costa
+- Antonio Spedito
+- Alessandro Macaluso
 
-- Obtain the form of state.
+## 🧠 Activities Performed
 
-- Obtain the eigenvalues described by the system with also the modes of the system.
+- Model linearization
+- State-space analysis
+- Eigenvalue and mode analysis
+- Transfer function derivation
+- Pole/zero interpretation
+- Controller tuning (including SISO Tool workflow)
+- Simulation in Simulink
 
-- Deduce the transfer function and describe the poles and zeros of the transfer function.
+## 📁 Files
 
-- Design a controller that respects some project specifications.
+- `Progetto_controllore.m`: MATLAB script for controller design
+- `Simulink_simulazione1.slx`: simulation model
+- `controllore.mat`: saved controller data
+- `Progetto_Sottomarino_CA22_03.pdf`: project report
 
-- Model a controller on sisotool environment
+## ▶️ Run
 
-- Implementation of the controller on a Simulink simulation of the system.
+1. Open MATLAB
+2. Load `Progetto_controllore.m`
+3. Open and run `Simulink_simulazione1.slx`
 
+## 📌 Notes
 
-e repository we provide the matlab codes with comments in Italian and the document presented to the professor.
-
-
-## Images
-### Differential Equations
-<p align="center">
-<img width="800" alt="Senza titolo" src="https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/2c40bb7d-ff3b-44eb-a16a-3e6e8ebfc64e">
-</p>
-### Bode Diagrams
-
-![bode_G(jw)](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/e9009029-dd8a-4cf0-9d0d-74612576c8ef)
-
-![Bode_C(jw)G(jw)](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/50202dbd-814b-4e75-9d13-68bf02c5f00e)
-
-![Bode_Gc(jw)](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/b1d179f8-bb08-4a48-8c45-e36623578a86)
-
-### Simulink Projects
-
-#### Linear Model
-
-<p align="center">
-<img width="1157" alt="Immagine 2023-05-15 234937" src="https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/aa18de01-1195-41e1-8187-2dbd8d86b12f">
-</p>
-
-![simulazione1](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/90d139d1-8180-4084-a7eb-0190476222a1)
-
-#### Non Linear Model
-
-![SimulinkNonLinear](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/b75bec65-ed73-448e-9292-9e95a1bb56ec)
-
-![NonLinearSystem](https://github.com/AshenClock7613/Submarine-Project-2023-Control-System/assets/66488273/b2ae5d85-bb7a-4c89-8531-360c6dbc363e)
-
+Comments and report content are primarily in Italian, aligned with the original course submission.
 

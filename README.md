@@ -1,45 +1,57 @@
-# 🌊 Submarine Control System Project
+<div align="center">
 
-Control-systems university project focused on controller design for a submarine model defined by differential equations.
+# 🌊 Submarine Control System
 
-Developed in MATLAB/Simulink for the Control Systems course.
+**Controller Design & Simulation for Submarine Depth Stabilization**
 
-## 🎯 Objective
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange.svg)](https://www.mathworks.com/products/matlab.html)
+[![Simulink](https://img.shields.io/badge/Simulink-Simulation-blue.svg)](https://www.mathworks.com/products/simulink.html)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
-Design and validate a controller that satisfies project constraints for both linearized and nonlinear plant behavior.
+*Control Systems — University of Palermo, 2023*
 
-## 👥 Team
+</div>
+
+---
+
+## 📋 Overview
+
+Design and implementation of a feedback controller to stabilize a submarine model described by differential equations. The project covers the full control engineering workflow: from model linearization to closed-loop simulation in Simulink.
+
+## 🧠 Methodology
+
+| Phase | Description |
+|-------|-------------|
+| **Linearization** | Derive linearized state-space model around operating point |
+| **State-Space Analysis** | Eigenvalue decomposition, mode identification |
+| **Transfer Function** | Derivation and pole/zero interpretation |
+| **Controller Design** | Tuning via SISO Tool and manual root-locus techniques |
+| **Simulation** | Closed-loop validation on both linear and nonlinear plants |
+
+## 📁 Project Structure
+
+```
+├── Progetto_controllore.m              # MATLAB controller design script
+├── Simulink_simulazione1.slx           # Simulink simulation model
+├── controllore.mat                     # Saved controller parameters
+├── Progetto_Sottomarino_CA22_03.pdf    # Full project report (Italian)
+└── LICENSE
+```
+
+## 🚀 How to Run
+
+1. Open **MATLAB**
+2. Run `Progetto_controllore.m` to load controller parameters
+3. Open `Simulink_simulazione1.slx` and start the simulation
+
+## 👥 Authors
 
 - Giovanni Castelli
 - Raoul Renda
 - Gabriele Nicolò Costa
-- Antonio Spedito
+- **Antonio Spedito** — [@ashenclock](https://github.com/ashenclock)
 - Alessandro Macaluso
 
-## 🧠 Activities Performed
+## 📜 License
 
-- Model linearization
-- State-space analysis
-- Eigenvalue and mode analysis
-- Transfer function derivation
-- Pole/zero interpretation
-- Controller tuning (including SISO Tool workflow)
-- Simulation in Simulink
-
-## 📁 Files
-
-- `Progetto_controllore.m`: MATLAB script for controller design
-- `Simulink_simulazione1.slx`: simulation model
-- `controllore.mat`: saved controller data
-- `Progetto_Sottomarino_CA22_03.pdf`: project report
-
-## ▶️ Run
-
-1. Open MATLAB
-2. Load `Progetto_controllore.m`
-3. Open and run `Simulink_simulazione1.slx`
-
-## 📌 Notes
-
-Comments and report content are primarily in Italian, aligned with the original course submission.
-
+This project is licensed under the GPL-3.0 License — see the [LICENSE](LICENSE) file for details.

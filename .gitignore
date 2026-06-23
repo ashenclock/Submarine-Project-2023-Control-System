@@ -1,0 +1,19 @@
+# MATLAB
+*.mat
+*.asv
+*.m~
+*.mlx~
+*.fig
+*.mex*
+*.slxc
+
+# Simulink
+slprj/
+*_grt_rtw/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
